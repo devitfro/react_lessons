@@ -1,4 +1,4 @@
-import photo from './assets/photo.jpeg'
+import photo from './assets/photo.jpg'
 import './App.css'
 
 function Photo() {
