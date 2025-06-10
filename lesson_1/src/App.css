@@ -1,0 +1,43 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: center;
+}
+
+/* my styles */
+.card {
+  width: 50%;
+  margin: auto;
+  padding: 1rem;
+  border: 3px solid #62055aaa;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.photo {
+  width: 25%;
+  height: 30%;
+  display: block;
+}
+.title {
+  color:#62055aaa;
+}
+.title:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.tel {
+  color: #370e65aa;
+  font-weight: bold;
+} 
+.email {
+  color: #62055aaa;
+  font-weight: bold;
+}
+div:last-child {
+  color: #370e65aa;
+  font-weight: bold;
+}
