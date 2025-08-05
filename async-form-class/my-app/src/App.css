@@ -1,0 +1,81 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f0f2f5, #e3e8ee);
+  padding: 20px;
+  font-family: 'Inter', sans-serif;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.status-text {
+  font-size: 1.1rem;
+  color: #4b5563;
+  margin-bottom: 1.5rem;
+  opacity: 0;
+  transform: translateY(10px);
+  animation: fadeIn 0.5s ease-in forwards;
+}
+
+.login-btn {
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #3b82f6;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.login-btn:hover {
+  background-color: #2563eb;
+  transform: translateY(-2px);
+}
+
+.logout-btn {
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #ef4444;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.logout-btn:hover {
+  background-color: #dc2626;
+  transform: translateY(-2px);
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 640px) {
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .login-btn,
+  .logout-btn {
+    padding: 10px 20px;
+    font-size: 0.9rem;
+  }
+}
