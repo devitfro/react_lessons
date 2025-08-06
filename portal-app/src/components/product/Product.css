@@ -1,0 +1,88 @@
+.product-box {
+  width: 400px;
+  height: 500px;
+  background: white;
+  padding: 24px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.image-box {
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #eee;
+  transition: box-shadow 0.3s;
+  position: relative;
+}
+
+.image-box:hover {
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+  .addToBasket {
+    display: block;
+  }
+}
+
+.basket-wrapper {
+  position: absolute;
+  bottom: 12px;
+  right: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.addToBasket {
+  display: none;
+  border: 1px solid #e5e5e5;
+  border-radius: 50%;
+  padding: 12px;
+  background: white;
+  z-index: 1;
+  transition: background 0.3s;
+}
+
+.addToBasket:hover {
+  background: #778376;
+}
+
+.basket-wrapper:hover .tooltip {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.description-box {
+  margin-top: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.description-box p {
+  font-size: 14px;
+  font-weight: 500;
+  color: rgb(12, 10, 10);
+  margin: 0 0 16px;
+}
+.price-box {
+  display: flex;
+  gap: 14px;
+}
+.price-box span:first-child {
+  color: #e5e5e5;
+  text-decoration: line-through;
+  font-style: 16px;
+}
+.price-box span:last-child {
+  font-weight: bold;
+  font-style: 24px;
+}

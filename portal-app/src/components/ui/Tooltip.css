@@ -1,0 +1,17 @@
+/* tooltip */
+.tooltip {
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease;
+  position: absolute;
+  bottom: 100%;
+  margin-bottom: 8px !important;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #2d3748;
+  color: white;
+  padding: 2px 8px;
+  font-size: 8px;
+  white-space: nowrap !important;
+  z-index: 2;
+}
