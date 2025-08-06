@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "CU Skin – Ампульна емульсія з пептидами та волюфіліном Vitamin U Ampoule Emulsion",
+    "image": "../src/images/01.jpg",
+    "rating": 4.5,
+    "oldPrice": "2,286 грн",
+    "newPrice": "1,829 грн"
+  },
+  {
+    "id": 2,
+    "title": "BB крем CUSKIN Vitamin U BB Cream SPF 28",
+    "image": "../src/images/02.jpg",
+    "rating": 5,
+    "oldPrice": "1,416 грн",
+    "newPrice": "1,133 грн"
+  },
+  {
+    "id": 3,
+    "title": "CU SKIN Clean-Up Av Free Purifying Moisturizer Крем для проблемної шкіри 60 мл",
+    "image": "../src/images/03.jpg",
+    "rating": 4,
+    "oldPrice": "1,299 грн",
+    "newPrice": "1,039 грн"
+  }
+]
